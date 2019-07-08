@@ -1,0 +1,998 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.nav-item:hover {
+	transform: scale(1.2);
+}
+
+/*landing page*/
+#lpnav #navbarlpp ul li a {
+	font-family: 'Merriweather', serif;
+	color: white;
+}
+
+#lpnav #navbarlpp ul li a:hover {
+	color: red;
+}
+
+#lpbtn {
+	border: 1px solid #fff;
+}
+
+#lpbtn:hover {
+	transform: scale(1.2);
+	background-color: red;
+}
+
+#lpbg {
+	position: relative;
+	margin-bottom: 0;
+	height: 100%;
+}
+
+#lpbg::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	background-image: url("../images/lpbg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(30%);
+}
+
+#index-footer {
+	position: relative;
+	bottom: 0;
+	color: white;
+	width: 100%;
+	font-size: 0.90em;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#jumbo-land {
+	padding-top: 5%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	background: none; /*off black*/
+	border-radius: 0; /*removes jumbotron rounded corners*/
+}
+
+.jumbotron h1 {
+	padding: 5%;
+	width: 100%;
+	font-size: 6vw;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+.jumbotron p {
+	width: 100%;
+	font-size: 3vw;
+	font-weight: bold;
+	color: white;
+}
+
+.jumbotron hr {
+	background-color: #fff;
+}
+
+#intro {
+	width: 100%;
+	text-align: center;
+}
+
+.btn {
+	border-radius: 50px;
+	width: 150px;
+}
+
+.btn:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);
+}
+
+.btn a {
+	text-decoration: none;
+	color: white;
+}
+
+#home-landing {
+	background-color: #333;
+	color: white;
+	padding: 20%;
+}
+/*end of landing page*/
+
+/*start of home page*/
+#homenavbar #homenav ul li a {
+	font-family: 'Merriweather', serif;
+	color: white;
+}
+
+#homenavbar #homenav ul li a:hover {
+	font-family: 'Merriweather', serif;
+	color: red;
+}
+
+#desc div div p {
+	font-size: 1.25em;
+}
+
+#home #homenavbar {
+	background-color: rgba(0,0,0,0.70);
+	color: white;
+}
+
+#home #homenavbar #homeintro {
+	color: white;
+}
+
+#homebg {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+#homebg::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/homebg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(30%);
+}
+
+#homefoot {
+	font-size: 1.20em;
+	background-color: rgba(0,0,0,0.70);
+	opacity: 0.70;
+}
+
+#homecaro {
+	position: relative;
+}
+
+#desc {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	padding: 1%;
+	width: 60%;
+	font-family: 'Fjalla One', sans-serif;
+	background-color: rgba(0,0,0,0.70);
+	color: white;
+	border: 1px solid #f2f2f2;
+	opacity: 0.75;
+}
+
+.carousel img {
+	width: auto;
+	object-fit: cover;
+	object-position: center;
+	overflow: hidden;
+}
+
+.footer {
+	margin-top: 2%;
+	background-color: rgba(0,0,0,0.70);
+	color: white;
+}
+
+#lpintro {
+	color: white;
+}
+/*end of home page*/
+
+
+/*start of teams page*/
+#homenavbar #homenav ul li a {
+	color: white;
+}
+
+#jumbotron-about {
+	height: 90vh;
+	border-radius: 0;
+	margin-bottom: 0;
+	color: white;
+}
+
+#teambg #about {
+	padding: 3%;
+	color: black;
+	background-color: rgba(255,255,255,0.70);
+	border-radius: 0;
+}
+
+#teams-about {
+	color: black;
+	padding: 3%;
+	font-size: 2em;
+	font-family: 'Fjalla One', sans-serif;
+	/*position: relative;*/
+}
+
+div .odd {
+/*	height: 100%;*/
+	background-color: rgba(192,192,192); /*off-black*/
+	color: black; /*off-white*/
+}
+
+div .even {
+/*	height: 100%;*/
+	background-color: #fff;
+	color: #333;
+	padding-bottom: 0;
+}
+
+.about-tags {
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 1px;
+}
+
+#teampic img {
+	height: 30%;
+	width: 45%;
+}
+
+#teampic #teaminfo {
+	padding: 5%;
+}
+
+#teampic #teaminfo-fer img {
+	height: 40%;
+	width: 18%;
+/*	padding-top: 2%;*/
+	object-fit: cover;
+}
+
+#teampic #teaminfo #williams {
+	height: 40%;
+	width: 30%;
+	padding-top: 2%;
+	object-fit: cover;
+}
+
+#teampic #teamcar img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#teampic #teaminfo #teambase img {
+	height: 22px;
+	width: 30px;
+	display: inline-block;
+	padding: 0;
+}
+
+
+#teampic #teaminfo-fer #teambase img {
+	height: 5%;
+	width: 5%;
+	display: inline-block;
+	padding: 0;
+}
+
+#teamfooter p {
+	margin-top: 0;
+	background-color: rgba(0,0,0,0.70);
+}
+/*end of teams page*/
+
+/*start of races page*/
+.card {
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	object-fit: cover;
+	text-align: left;
+	color: white;
+	background-color: rgba(0,0,0,0.70);
+}
+
+.card-img-top {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+#racesbg {
+	position: relative;
+	height: 100vh;
+	margin-bottom: 0;
+}
+
+#racesbg::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-image: url("../images/racesbg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(30%);
+}
+
+#racefooter {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	background-color: rgba(0,0,0,0.70);
+}
+/*end of races page*/
+
+/*contact page*/
+#gmap {
+	width: 100%;
+	display: block;
+	border: none;
+	height: 85%;
+	border-radius: 10px;
+}
+
+#contactbg {
+	position: relative;
+	height: 100vh;
+	margin-bottom: 0;
+}
+
+#contactbg::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-image: url("../images/contactbg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(70%);
+}
+
+#confooter {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	background-color: rgba(0,0,0,0.70);
+}
+
+#con1, #con2 {
+	color: white;
+}
+/*end of contact page*/
+
+/*small screen*/
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+	
+	/*index page footer*/
+	#lpbg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/lpbg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+	#lpbg::before #lpbg {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#lpbg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+
+	#lpbg::before #lpbg #index-footer {
+		position: absolute;
+		bottom: 0;
+		height: auto;
+		width: 100%;
+		text-align: center;
+		font-size: 15px;
+		background-color: none;
+	}
+
+	#lpbg #home #index-footer {
+		font-size: 0.75em;
+	}
+	/*end of index page footer*/
+
+	/*home page */
+	#homebg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/homebg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+
+	#homebg::after body #homebg {
+		position: absolute;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#homebg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+	#homebg #home {
+		position: relative;
+	}
+
+	#homebg #home #homefoot {
+		position: absolute;
+		bottom: 0;
+		height: auto;
+		width: 100%;
+		text-align: center;
+		font-size: 15px;
+		background-color: rgba(0,0,0,0.70);
+		opacity: 0.70;
+	}
+
+	#homecaro {
+		position: relative;
+	}
+
+	#desc {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2%;
+		padding: 1%;
+		width: 60%;
+		font-family: 'Fjalla One', sans-serif;
+		background-color: rgba(0,0,0,0.70);
+		color: white;
+		border: 1px solid #f2f2f2;
+		opacity: 0.75;
+	}
+
+	.carousel img {
+		width: auto;
+		object-fit: cover;
+		object-position: center;
+		overflow: hidden;
+	}
+
+	.footer {
+		margin-top: 2%;
+		background-color: rgba(0,0,0,0.70);
+		color: white;
+	}
+	/*end of home page*/
+
+	/*start of contact page*/
+	#contactbg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/lpbg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+	#contactbg::before #contactbg {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#contactbg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+	#contactbg::before #home #confooter {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+	/*end of contact page*/
+
+	/*start of races page*/
+	.card {
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	object-fit: cover;
+	text-align: left;
+	color: white;
+	background-color: rgba(0,0,0,0.70);
+	}
+
+	.card-img-top {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+
+	#racerow {
+		height: 500px;
+		width: 100%;
+	}
+
+	#racesbg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/racesbg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+	#racesbg::before #racesbg {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#racesbg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+	#racesbg::before #racefooter {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+	/*end of races page*/
+}
+/*end of small screen media query*/
+
+/*start of medium screen media query*/
+@media only screen and (min-width: 421px) and (max-width: 960px) {
+
+	/*index page footer*/
+	#lpbg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/lpbg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+	#lpbg::before #lpbg {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#lpbg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+
+	#lpbg::before #lpbg #index-footer {
+		position: absolute;
+		bottom: 0;
+		height: auto;
+		width: 100%;
+		text-align: center;
+		font-size: 15px;
+		background-color: none;
+	}
+
+	#lpbg #home #index-footer {
+		font-size: 0.75em;
+	}
+	/*end of index page footer*/
+
+	/*home page */
+	#homebg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/homebg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+
+	#homebg::after body #homebg {
+		position: absolute;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#homebg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+	#homebg::before #homebg #home {
+		position: relative;
+	}
+
+	#homebg #home #homefoot {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 15px;
+		background-color: rgba(0,0,0,0.70);
+		opacity: 0.70;
+	}
+
+	#homecaro {
+		position: relative;
+	}
+
+	#desc {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2%;
+		padding: 1%;
+		width: 60%;
+		font-family: 'Fjalla One', sans-serif;
+		background-color: rgba(0,0,0,0.70);
+		color: white;
+		border: 1px solid #f2f2f2;
+		opacity: 0.75;
+	}
+
+	.carousel img {
+		width: auto;
+		object-fit: cover;
+		object-position: center;
+		overflow: hidden;
+	}
+
+	.footer {
+		margin-top: 2%;
+		background-color: rgba(0,0,0,0.70);
+		color: white;
+	}
+	/*end of home page*/
+
+	/*start of contact page*/
+	#contactbg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/lpbg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+	#contactbg::before #contactbg {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#contactbg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+	#contactbg::before #home #confooter {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+	/*end of contact page*/
+
+	/*start of races page*/
+	.card {
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	object-fit: cover;
+	text-align: left;
+	color: white;
+	background-color: rgba(0,0,0,0.70);
+	}
+
+	.card-img-top {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+
+	#racerow {
+		height: 300px;
+		width: 100%;
+	}
+
+	#racesbg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/racesbg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+	#racesbg::before #racesbg {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#racesbg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+	#racesbg::before #racefooter {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+	/*end of races page*/
+}
+/*end of medium screen media query*/
+
+/*large screen media query*/
+@media only screen and (min-width: 961px) and (max-width: 1080px) {
+	/*index page footer*/
+	#lpbg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/lpbg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+	#lpbg::before #lpbg {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#lpbg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+
+	#lpbg::before #lpbg #index-footer {
+		position: absolute;
+		bottom: 0;
+		height: auto;
+		width: 100%;
+		text-align: center;
+		font-size: 15px;
+		background-color: none;
+	}
+
+	#lpbg #home #index-footer {
+		font-size: 0.75em;
+	}
+	/*end of index page footer*/
+
+	/*home page */
+	#homebg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/homebg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+
+	#homebg::after body #homebg {
+		position: absolute;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#homebg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+	#homebg::before #homebg #home {
+		position: relative;
+	}
+
+	#homebg #home #homefoot {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 15px;
+		background-color: rgba(0,0,0,0.70);
+		opacity: 0.70;
+	}
+
+	#homecaro {
+		position: relative;
+	}
+
+	#desc {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2%;
+		padding: 1%;
+		width: 60%;
+		font-family: 'Fjalla One', sans-serif;
+		background-color: rgba(0,0,0,0.70);
+		color: white;
+		border: 1px solid #f2f2f2;
+		opacity: 0.75;
+	}
+
+	.carousel img {
+		width: auto;
+		object-fit: cover;
+		object-position: center;
+		overflow: hidden;
+	}
+
+	.footer {
+		margin-top: 2%;
+		background-color: rgba(0,0,0,0.70);
+		color: white;
+	}
+	/*end of home page*/
+
+	/*start of contact page*/
+	#contactbg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/lpbg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+	#contactbg::before #contactbg {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#contactbg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+	#contactbg::before #home #confooter {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+	/*end of contact page*/
+
+	/*start of races page*/
+	.card {
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	object-fit: cover;
+	text-align: left;
+	color: white;
+	background-color: rgba(0,0,0,0.70);
+	}
+
+	.card-img-top {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+
+	#racerow {
+		height: 300px;
+		width: 100%;
+	}
+
+	#racesbg::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/racesbg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: brightness(30%);
+	}
+
+	#racesbg::before #racesbg {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#racesbg::before #home {
+		min-height: 100%;
+		position: relative;
+	}
+
+	#racesbg::before #racefooter {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+	/*end of races page*/
+}
+/*end of large screen media query*/
+}

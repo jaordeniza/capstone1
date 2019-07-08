@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Explore F1 | Home</title>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans+TC&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:700&display=swap" rel="stylesheet">
+
+	<!-- fontawesome icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- icon -->
+	<link rel="icon" type="image/gif/png" href="assets/images/logo.png">
+</head>
+<body id="homebg" class="animated fadeIn">
+	<div id="home" class="container-fluid px-0">
+			<!-- start of nav -->
+			<nav id="homenavbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+				<a id="homeintro" class="navbar-brand" href="home.html">
+					<i class="fas fa-motorcycle"></i>
+					Formula 1
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#homenav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div id="homenav" class="collapse navbar-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a href="home.html" target="_blank" class="nav-link">
+								Home
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="teams.html" target="_blank" class="nav-link">
+								Teams
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="races.html" target="_blank" class="nav-link">
+								Races
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="contact.html" target="_blank" class="nav-link">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav> <!-- end of nav -->
+
+			<!-- start of row mx-0 -->
+			<div id="homecaro" class="row p-3 mx-auto">
+				<div class="row">
+					<div class="col-12 col-md-7 mx-auto">
+							<div id="carousel" class="carousel slide cycle img-fluid" data-ride="carousel" data-interval="5000">
+								<!-- start carousel inner (holder of images) -->
+				  				<div class="carousel-inner">
+				  					<ul class="carousel-indicators">
+			    						<li data-target="#carousel" data-slide-to="0" class="active"></li>
+									    <li data-target="#carousel" data-slide-to="1"></li>
+									    <li data-target="#carousel" data-slide-to="2"></li>
+									    <li data-target="#carousel" data-slide-to="3"></li>
+									    <li data-target="#carousel" data-slide-to="4"></li>
+									</ul>
+					    			<div class="carousel-item active">
+					    					<img class="d-block w-100" src="assets/images/car1.jpg" alt="First slide">
+					      					<div class="carousel-caption caption">
+												<h5>Start, France Grand Prix 2019</h5>
+											</div>
+									</div>
+					    			<div class="carousel-item">
+					      					<img class="d-block w-100" src="assets/images/car2.jpg" alt="Second slide">
+					      					<div class="carousel-caption">
+												<h5>Start, Austrian Grand Prix 2019</h5>
+											</div>
+					   				</div>
+					   				<div class="carousel-item">
+					      					<img class="d-block w-100" src="assets/images/car3.jpg" alt="Third slide">
+					      					<div class="carousel-caption">
+												<h5>Ferrari #5 Sebastian Vettel</h5>
+												<h5>2019 Monaco Grand Prix</h5>
+											</div>
+					    			</div>
+					    			<div id="car4" class="carousel-item">
+					      					<img class="d-block w-100" src="assets/images/car4.jpg" alt="Fourth slide">
+					      					<div class="carousel-caption">
+												<h5>F1 Drivers</h5>
+												<h5>2019 Australia Grand Prix</h5>
+											</div>
+					    			</div>
+					    			<div class="carousel-item">
+					      					<img id="car5" class="d-block w-100 img-fluid" src="assets/images/car5.jpg" alt="Fifth slide">
+					      					<div class="carousel-caption">
+												<h5>Mclaren-Renault #33 Carlos Sainz Jr.</h5>
+												<h5>2019 Bahrain Grand Prix</h5>
+											</div>
+					   				</div>
+					    			 	<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+					    					<span class="carousel-control-prev-icon"></span>
+					 					</a>
+						  				<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+						    				<span class="carousel-control-next-icon"></span>
+					  					</a>
+									</div> 
+								</div> <!-- end of carousel inner -->
+							</div> <!-- end carousel -->
+					</div> <!-- end of col 8 -->
+				</div> <!-- end of row -->
+			</div> <!-- end of row -->
+
+			<!-- start of container  -->
+			<div id="desc" class="container">
+				<div class="row mx-auto">
+					<div class="col-md-8 mx-auto p-1">
+						<h3>Formula 1..</h3>
+						<p class="text-justify">
+							..also known as the "Pinnacle of Motorsport" because of the sciences involved with it. From aerodynamics, tire compound composition, fuel mixtures, different engine layouts, different engine combustion implementations and etc. Each team has its own car design implementation based on the rules for the season and different engine suppliers like Mercedes-AMG, Ferrari, Renault, Honda.
+						</p>
+					</div>			
+				</div> <!-- end row -->
+			</div> <!-- end of container -->
+			
+			<footer id="homefoot" class="footer text-center mb-0">
+				<p class="text-center p-1 mb-0">JANO | <a href="https://zuitt.co/">Zuitt Coding Bootcamp</a></p>
+				<p class="text-center p-1 mb-0">
+					<small>No copyright infringement intended. All images and logos featured in this project are for educational purposes only.</small>
+				</p>
+			</footer>
+	</div> <!-- end of container-fluid -->
+	
+	
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
