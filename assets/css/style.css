@@ -389,7 +389,7 @@ div .even {
 /*end of contact page*/
 
 /*small screen*/
-@media only screen and (min-width: 320px) and (max-width: 420px) {
+@media only screen and (max-width: 600px) {
 	
 	/*index page footer*/
 	#lpbg::before {
@@ -594,7 +594,7 @@ div .even {
 /*end of small screen media query*/
 
 /*start of medium screen media query*/
-@media only screen and (min-width: 421px) and (max-width: 960px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
 
 	/*index page footer*/
 	#lpbg::before {
@@ -798,7 +798,7 @@ div .even {
 /*end of medium screen media query*/
 
 /*large screen media query*/
-@media only screen and (min-width: 961px) and (max-width: 1080px) {
+@media only screen and (min-width: 769px) and (max-width: 960px) {
 	/*index page footer*/
 	#lpbg::before {
 		content: "";
